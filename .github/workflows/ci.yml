@@ -9,5 +9,4 @@ jobs:
       # Install NPM dependencies, cache them correctly
       # and run all Cypress tests
       - name: Cypress run
-        run: npm install cypress@9.5.1
         uses: cypress-io/github-action@v2
